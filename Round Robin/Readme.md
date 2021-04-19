@@ -1,14 +1,14 @@
-# Priority Scheduling Algorithm
- In this algorithm, the scheduler selects the tasks to work as per the priority. The processes with higher priority should be carried out first.
 
-# Advantage
+# Round Robin Scheduling
+This is a CPU scheduling algorithm where each process is assigned a fixed time slot in a cyclic way.
 
-Fast execution of prioritized processes.
+# Advantages
 
+-Each process is provided a fixed time to execute.
+-Once a process is executed for a given time period, it is preempted and another process executes for a given time period.
 
-# Disadvantage
+-Context switching is used to save states of preempted processes
 
-Indefinite Block or starvation
 
 ## How to Run
 
